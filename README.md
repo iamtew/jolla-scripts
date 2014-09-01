@@ -19,5 +19,10 @@ For ease of management create a separate configuration file: `/etc/sudoers.d/nem
 
 ```
 ## Allows people in group nemo to run all commands
-%nemo   ALL=(ALL)   NOPASSWD: ALL
+%nemo   ALL=(ALL)   ALL: ALL
+#%nemo   ALL=(ALL)   NOPASSWD: ALL
 ```
+
+---
+
+These scripts are provided "as is" with no warranty.
